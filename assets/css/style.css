@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; /*0 padding and 0 margin */
+}
+
+body {
+    background-color: #d9dcd6; /*this is the colour for the main background on the webpage */ 
+}
+
+.header {
+    padding: 20px;/*20 pixel padding (padding is space betwwen content and boarder) */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*font of text,
+    multiple fonts listed in case browser can't support one it will use the next one listed*/
+    background-color: #2a607c; /* this is the colour for the header banner */
+    color: #ffffff; /* this is the colour for the letters hori snd n in the title Horiseon which is located in the header banner */
+}
+
+.header h1 {
+    display: inline-block; /* render element */ 
+    font-size: 48px; /*font size of title "Horiseon" */
+}
+
+.header h1 .seo {
+    color: #d9dcd6; /*this is the colour for the the letters seo in the title Horiseon which is located in the header banner */
+}
+
+.header nav {
+    padding-top: 15px; /*padding from the top of content to boarder is 15 pixel*/
+    margin-right: 20px; /* 20 pixels from oustide boarder away from the right on the page*/
+    float: right; /* content to stick to the right hand side of the page*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*font of text,
+    multiple fonts listed in case browser can't support one it will use the next one listed*/
+    font-size: 20px; /* font size*/
+}
+
+.header nav ul {
+    list-style-type: none; /* style type */ 
+}
+
+.header nav ul li {
+    display: inline-block; /* render element*/ 
+    margin-left: 25px;/* 25 pixels left from next object*/
+}
+
+a {
+    color: #ffffff; /*this is the colour for the text located in the naviagtion bar which is in the banner */
+    text-decoration: none; /* text decoration*/ 
+}
+
+p {
+    font-size: 16px; /*text size of the general information on the webpage (not including titles) */
+}
+
+.hero {
+    height: 800px;/*800 pixels */
+    width: 100%; /*100% width to fit the screen regarless of screen viewing size */
+    margin-bottom: 25px; /*25 pixels space betwwen image and next object below*/
+    background-image: url("../images/digital-marketing-meeting.jpg"); /*image loaction  */
+    background-size: cover; /* background size*/ 
+    background-position: center;/* image to be center of page*/
+}
+
+.float-left { 
+    float: left; /* object to keep to the left*/ 
+    margin-right: 25px; /* 25 pixels from the right of any object*/ 
+}
+
+.float-right {
+    float: right; /* obejct to keep to the right*/ 
+    margin-left: 25px; /* 25 pixels from the left of any object*/ 
+}
+
+.content {
+    width: 75%; /* onject to be 75% respect tot the size of the screen viewing size*/ 
+    display: inline-block; /* render element */ 
+    margin-left: 20px; /* 20 pixels from the left of any object */ 
+}
+
+.benefits {
+    margin-right: 20px; /* 20 pixels from the right of any object  */
+    padding: 20px; /*20 pixel padding from content and boarder */
+    clear: both; /* */
+    float: right; /* object to keep to the right */
+    width: 20%; /* to displayed at 20% width of the screen viewing size respectfully*/
+    height: 100%; /* height to be 100% of the of the screen viewing size respectfully */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*font of text,
+    multiple fonts listed in case browser can't support one it will use the next one listed*/
+    background-color: #2589bd; /* colour of object*/
+}
+
+.benefit-lead {
+    margin-bottom: 32px; /* 32 pixel space from next object and boarder of this one*/
+    color: #ffffff; /* colour of text in the benefit lead section*/
+}
+
+.benefit-brand {
+    margin-bottom: 32px; /* 32 pixel space from next object and boarder of this one */
+    color: #ffffff; /* colour of text in the benefit brand section */
+}
+
+.benefit-cost {
+    margin-bottom: 32px; /* 32 pixel space from next object and boarder of this one */
+    color: #ffffff; /* colour of text in the benifit cost section */
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px; /* 10 pixel space from next object and boarder of this one*/
+    text-align: center; /* text to be displayed center */ 
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;  /* 10 pixel space from next object and boarder of this one */ 
+    text-align: center; /* text to be displayed center*/ 
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px; /* 10 pixel space from next object and boarder of this one */ 
+    text-align: center; /* text to be displayed center*/ 
+}
+
+.benefit-lead img {
+    display: block; /* render element*/ 
+    margin: 10px auto; /* margin to have a 10 pixel gap reagrdless of content*/ 
+    max-width: 150px; /*max width of benefit lead image to be no more then 150 pixel */ 
+}
+
+.benefit-brand img {
+    display: block; /* render element*/ 
+    margin: 10px auto; /* margin to have a 10 pixel gap reagrdless of content */ 
+    max-width: 150px; /* max width of benefit brand image to be no more then 150 pixel*/ 
+}
+
+.benefit-cost img {
+    display: block; /* render element*/ 
+    margin: 10px auto; /* margin to have a 10 pixel gap reagrdless of content */ 
+    max-width: 150px; /* max width of benefit cost image to be no more then 150 pixel*/ 
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px; /*20 pixel space from bottom from next objext */
+    padding: 50px; /*50 pixel from content and boarder */
+    height: 300px; /*300 pixel height of box  */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*font of text,
+    multiple fonts listed in case browser can't support one it will use the next one listed*/
+    background-color: #0072bb; /*colour of obejct  */
+    color: #ffffff; /* colour of text */
+}
+
+.online-reputation-management {
+    margin-bottom: 20px; /*20 pixel space from bottom from next objext */
+    padding: 50px; /*50 pixel from content and boarder */
+    height: 300px; /*300 pixel height of box  */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*font of text,
+    multiple fonts listed in case browser can't support one it will use the next one listed*/
+    background-color: #0072bb; /*colour of obejct  */
+    color: #ffffff; /* colour of text */
+}
+
+.social-media-marketing {
+    margin-bottom: 20px; /*20 pixel space from bottom from next objext */
+    padding: 50px; /*50 pixel from content and boarder */
+    height: 300px; /*300 pixel height of box  */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  /*font of text,
+    multiple fonts listed in case browser can't support one it will use the next one listed*/
+    background-color: #0072bb; /*colour of obejct  */
+    color: #ffffff; /* colour of text */
+}
+
+.search-engine-optimization img {
+    max-height: 200px; /* image size of the search-engine-optimization image*/
+}
+
+.online-reputation-management img {
+    max-height: 200px; /* image size of the online-reputation-management image */
+}
+
+.social-media-marketing img {
+    max-height: 200px; /* image size of the social-media-marketing image */
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px; /*20 pixel space from bottom*/
+    font-size: 36px; /* font size 36*/
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px; /*20 pixel space from bottom*/
+    font-size: 36px; /* font size 36*/
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;  /* 20 pixel space from bottom  */
+    font-size: 36px; /* font size 36*/
+}
+
+.footer {
+    padding: 30px; /* padding is 30 pixels all around from content and boarder*/
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*font of text, 
+    multiple fonts listed in case browser can't support one it will use the next one listed*/
+    text-align: center; /* keeps the text in the footer centre of page respectfully to the size of page */
+}
+
+.footer h2 {
+    font-size: 20px; /* font size in the footer*/
+}
